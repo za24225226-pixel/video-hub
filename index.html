@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ziad Editing - شاهد وحمّل فيديوهات المونتاج والتصميم.">
+  <meta name="keywords" content="Ziad Editing, مونتاج, فيديوهات, Editing, Video Editing">
+  <meta name="author" content="Ziad Ahmed">
+  <meta name="theme-color" content="#080d18">
+  <title>Ziad Editing | Official Website</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <a class="brand" href="#home">
+    <img src="images/logo.png" alt="Ziad Editing Logo">
+    <span>𝒁𝒊𝒂𝒅 <b>𝑬𝒅𝒊𝒕𝒊𝒏𝒈</b></span>
+  </a>
+
+  <nav class="nav">
+    <a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+    <a href="#videos" data-ar="الفيديوهات" data-en="Videos">الفيديوهات</a>
+    <a href="#about" data-ar="من نحن" data-en="About">من نحن</a>
+    <a href="#privacy" data-ar="الخصوصية" data-en="Privacy">الخصوصية</a>
+    <a href="https://wa.me/48729754651" target="_blank" rel="noopener" class="support" data-ar="الدعم" data-en="Support">الدعم</a>
+  </nav>
+
+  <button class="language-btn" id="languageBtn">English</button>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <span class="small-title" data-ar="مرحباً بك في عالم الإبداع" data-en="Welcome to the world of creativity">مرحباً بك في عالم الإبداع</span>
+      <h1>𝒁𝒊𝒂𝒅 <span>𝑬𝒅𝒊𝒕𝒊𝒏𝒈</span></h1>
+      <p data-ar="مكانك المميز لمشاهدة وتحميل أفضل فيديوهات المونتاج والتصميم." data-en="Your special place to watch and download creative editing videos.">
+        مكانك المميز لمشاهدة وتحميل أفضل فيديوهات المونتاج والتصميم.
+      </p>
+      <a href="#videos" class="main-btn" data-ar="اكتشف الفيديوهات" data-en="Explore Videos">اكتشف الفيديوهات</a>
+    </div>
+    <div class="hero-decoration">ZE</div>
+  </section>
+
+  <section class="ad-section">
+    <span data-ar="مساحة إعلانية" data-en="Advertisement Space">مساحة إعلانية</span>
+    <p data-ar="سيتم عرض الإعلانات هنا مستقبلاً" data-en="Ads will appear here in the future">سيتم عرض الإعلانات هنا مستقبلاً</p>
+  </section>
+
+  <section class="videos-section" id="videos">
+    <div class="section-heading">
+      <span data-ar="مكتبة الفيديوهات" data-en="Video Library">مكتبة الفيديوهات</span>
+      <h2 data-ar="اكتشف الفيديوهات" data-en="Explore Videos">اكتشف الفيديوهات</h2>
+      <p data-ar="اختر الفيديو الذي يعجبك واستمتع بالمشاهدة." data-en="Choose your favorite video and enjoy watching.">اختر الفيديو الذي يعجبك واستمتع بالمشاهدة.</p>
+    </div>
+
+    <input
+      type="search"
+      id="searchInput"
+      class="search-box"
+      placeholder="ابحث عن فيديو..."
+      aria-label="Search videos"
+    >
+
+    <div class="categories">
+      <button class="category active" data-category="all" data-ar="الكل" data-en="All">الكل</button>
+      <button class="category" data-category="montage" data-ar="مونتاج" data-en="Editing">مونتاج</button>
+      <button class="category" data-category="effects" data-ar="مؤثرات" data-en="Effects">مؤثرات</button>
+      <button class="category" data-category="other" data-ar="متنوع" data-en="Other">متنوع</button>
+    </div>
+
+    <div class="video-grid" id="videoGrid">
+
+      <!-- الفيديو الأول -->
+      <article class="video-card" data-category="montage" data-search="فيديو مونتاج editing video">
+        <div class="video-wrapper">
+          <video controls preload="metadata">
+            <source src="videos/clip1.mp4" type="video/mp4">
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
+        </div>
+        <div class="video-info">
+          <span class="video-tag" data-ar="مونتاج" data-en="Editing">مونتاج</span>
+          <h3 data-ar="الفيديو الأول" data-en="First Video">الفيديو الأول</h3>
+          <p data-ar="شاهد الفيديو واستمتع بالمحتوى." data-en="Watch and enjoy the video.">شاهد الفيديو واستمتع بالمحتوى.</p>
+          <a href="videos/clip1.mp4" download class="download-btn" data-ar="تحميل الفيديو ↓" data-en="Download Video ↓">تحميل الفيديو ↓</a>
+        </div>
+      </article>
+
+      <!-- الفيديو الثاني -->
+      <article class="video-card" data-category="montage" data-search="فيديو جديد مونتاج editing new video">
+        <div class="video-wrapper">
+          <video controls preload="metadata">
+            <source src="videos/clip2.mp4" type="video/mp4">
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
+        </div>
+        <div class="video-info">
+          <span class="video-tag" data-ar="مونتاج" data-en="Editing">مونتاج</span>
+          <h3 data-ar="الفيديو الثاني" data-en="Second Video">الفيديو الثاني</h3>
+          <p data-ar="شاهد الفيديو الجديد واستمتع بالمحتوى." data-en="Watch and enjoy the new video.">شاهد الفيديو الجديد واستمتع بالمحتوى.</p>
+          <a href="videos/clip2.mp4" download class="download-btn" data-ar="تحميل الفيديو ↓" data-en="Download Video ↓">تحميل الفيديو ↓</a>
+        </div>
+      </article>
+
+    </div>
+
+    <p id="noResults" class="no-results" hidden data-ar="لا توجد فيديوهات مطابقة للبحث." data-en="No matching videos found.">
+      لا توجد فيديوهات مطابقة للبحث.
+    </p>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="section-heading">
+      <span data-ar="تعرف علينا" data-en="Who We Are">تعرف علينا</span>
+      <h2 data-ar="من نحن؟" data-en="About Us">من نحن؟</h2>
+    </div>
+    <div class="info-card">
+      <h3>𝒁𝒊𝒂𝒅 𝑬𝒅𝒊𝒕𝒊𝒏𝒈</h3>
+      <p data-ar="منصة تهتم بعرض وتنظيم فيديوهات المونتاج والتصميم، وهدفنا تقديم تجربة سهلة وممتعة للزوار." data-en="A platform dedicated to sharing and organizing video editing and design content, with a simple and enjoyable visitor experience.">
+        منصة تهتم بعرض وتنظيم فيديوهات المونتاج والتصميم، وهدفنا تقديم تجربة سهلة وممتعة للزوار.
+      </p>
+      <p class="owner">Created by 𝒁𝒊𝒂𝒅 𝑨𝒉𝒎𝒆𝒅</p>
+    </div>
+  </section>
+
+  <section class="privacy-section" id="privacy">
+    <div class="section-heading">
+      <span data-ar="معلومات مهمة" data-en="Important Information">معلومات مهمة</span>
+      <h2 data-ar="سياسة الخصوصية" data-en="Privacy Policy">سياسة الخصوصية</h2>
+    </div>
+    <div class="info-card">
+      <p data-ar="نحترم خصوصية زوار الموقع. لا يطلب الموقع حالياً إنشاء حساب أو تقديم بيانات شخصية لمشاهدة الفيديوهات. وقد نضيف خدمات إعلانية أو أدوات تحليل مستقبلاً، وعندها سيتم تحديث سياسة الخصوصية لتوضيح البيانات التي تجمعها هذه الخدمات وكيفية استخدامها." data-en="We respect visitor privacy. The website currently does not require an account or personal information to watch videos. Advertising or analytics services may be added in the future, and this policy will be updated to explain their data practices.">
+        نحترم خصوصية زوار الموقع. لا يطلب الموقع حالياً إنشاء حساب أو تقديم بيانات شخصية لمشاهدة الفيديوهات. وقد نضيف خدمات إعلانية أو أدوات تحليل مستقبلاً، وعندها سيتم تحديث سياسة الخصوصية لتوضيح البيانات التي تجمعها هذه الخدمات وكيفية استخدامها.
+      </p>
+      <p data-ar="للتواصل أو الاستفسار يمكنك زيارة قسم الدعم." data-en="For questions, please visit the Support section.">للتواصل أو الاستفسار يمكنك زيارة قسم الدعم.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <h2 data-ar="هل تحتاج إلى مساعدة؟" data-en="Need Help?">هل تحتاج إلى مساعدة؟</h2>
+    <p data-ar="تواصل معنا مباشرة عبر واتساب." data-en="Contact us directly through WhatsApp.">تواصل معنا مباشرة عبر واتساب.</p>
+    <a href="https://wa.me/48729754651" target="_blank" rel="noopener" class="main-btn" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</a>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> 𝒁𝒊𝒂𝒅 𝑬𝒅𝒊𝒕𝒊𝒏𝒈</p>
+  <p data-ar="جميع الحقوق محفوظة." data-en="All Rights Reserved.">جميع الحقوق محفوظة.</p>
+  <span>Designed by 𝒁𝒊𝒂𝒅 𝑨𝒉𝒎𝒆𝒅</span>
+</footer>
+
+<script>
+  const languageBtn = document.getElementById("languageBtn");
+  const searchInput = document.getElementById("searchInput");
+  const videoCards = document.querySelectorAll(".video-card");
+  const categoryButtons = document.querySelectorAll(".category");
+  const noResults = document.getElementById("noResults");
+
+  let currentLanguage = "ar";
+  let currentCategory = "all";
+
+  function changeLanguage() {
+    currentLanguage = currentLanguage === "ar" ? "en" : "ar";
+
+    document.documentElement.lang = currentLanguage;
+    document.documentElement.dir = currentLanguage === "ar" ? "rtl" : "ltr";
+
+    document.querySelectorAll("[data-ar][data-en]").forEach(element => {
+      element.textContent = element.dataset[currentLanguage];
+    });
+
+    searchInput.placeholder = currentLanguage === "ar"
+      ? "ابحث عن فيديو..."
+      : "Search for a video...";
+
+    languageBtn.textContent = currentLanguage === "ar" ? "English" : "العربية";
+  }
+
+  function filterVideos() {
+    const searchText = searchInput.value.trim().toLowerCase();
+    let visibleCount = 0;
+
+    videoCards.forEach(card => {
+      const searchData = (
+        card.dataset.search + " " + card.textContent
+      ).toLowerCase();
+
+      const matchesSearch = searchData.includes(searchText);
+      const matchesCategory =
+        currentCategory === "all" ||
+        card.dataset.category === currentCategory;
+
+      const visible = matchesSearch && matchesCategory;
+      card.style.display = visible ? "" : "none";
+
+      if (visible) visibleCount++;
+    });
+
+    noResults.hidden = visibleCount !== 0;
+  }
+
+  languageBtn.addEventListener("click", changeLanguage);
+  searchInput.addEventListener("input", filterVideos);
+
+  categoryButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      categoryButtons.forEach(item => item.classList.remove("active"));
+      button.classList.add("active");
+      currentCategory = button.dataset.category;
+      filterVideos();
+    });
+  });
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
